@@ -44,10 +44,14 @@ body{ background-color: rgb(253, 253, 253);
         text-align: justify;
     }
         
+    .cent{
+        margin: auto;
+        text-align: center;
 
+    }
     #myCanvas{
         text-align: center;
-        margin-left:  240px;
+        /* margin-left:  240px; */
      
     }
 
@@ -176,3 +180,25 @@ body{ background-color: rgb(253, 253, 253);
         position: relative;
     }
     
+        
+    #koncowy{
+        height: 120px;
+    }
+
+
+    .hr {
+        border: none;
+        border-top: 3px double rgb(192, 190, 190);
+        color: rgb(190, 187, 187);
+        overflow: visible;
+        text-align: center;
+        height: 5px;
+    }
+    
+    .hr:after {
+        background: #fff;
+        content: '§';
+        padding: 0 4px;
+        position: relative;
+        top: -13px;
+    }
