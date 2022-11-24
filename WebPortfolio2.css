@@ -15,7 +15,7 @@ body{ background-color: rgb(253, 253, 253);
     position: relative;
     /* min-width: 100vw; */
     height: 100vh;
-    scroll-snap-type: y mandatory;
+/*     scroll-snap-type: y mandatory; */
     
 } 
    .glowne1{
